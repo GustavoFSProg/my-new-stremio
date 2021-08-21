@@ -24,7 +24,7 @@ export const SidebarList = styled.ul`
   justify-content: left;
   align-items: flex-start;
   display: block;
-  margin-left: -35px;
+  margin-left: -80px;
 `
 
 export const SidebarListLi = styled.li`
@@ -43,11 +43,25 @@ export const SidebarListLi = styled.li`
 `
 
 export const Header = styled.div`
-  background: #2e5cb8;
+  background: #2952a3;
   height: 50px;
   color: white;
   width: 100%;
-  height: 70px;
+  height: 60px;
+`
+
+export const HeaderContainer = styled.div`
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+`
+
+export const HeaderText = styled.p`
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  margin-right: 40px;
 `
 export const SideBar = styled.div`
   display: flex;

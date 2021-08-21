@@ -1,9 +1,24 @@
-import { Container, Header, SidebarListLi, SidebarList, Text, SideBar } from './styles'
+import {
+  Container,
+  Header,
+  SidebarListLi,
+  HeaderContainer,
+  HeaderText,
+  SidebarList,
+  Text,
+  SideBar,
+} from './styles'
 
 export default function Home() {
   return (
     <Container>
-      <Header></Header>
+      <Header>
+        <HeaderContainer>
+          <HeaderText>Painel</HeaderText>
+          <HeaderText>Home</HeaderText>
+          <HeaderText>Series</HeaderText>
+        </HeaderContainer>
+      </Header>
       <SideBar>
         <SidebarList>
           <SidebarListLi>
