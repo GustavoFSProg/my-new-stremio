@@ -12,10 +12,10 @@ export const Container = styled.div`
 
 export const Text = styled.div`
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
 `
 
 export const SidebarList = styled.ul`
@@ -32,7 +32,8 @@ export const SidebarListLi = styled.li`
   font-size: 18px;
   padding: 2px 2px 2px 2px;
   color: #b3b3b3;
-  text-align: left;
+  /* text-align: left; */
+  margin-left: 40px;
   cursor: pointer;
 
   &:hover {
