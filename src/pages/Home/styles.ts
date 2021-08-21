@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  text-align: center;
   justify-content: center;
 
   width: 100%;
@@ -12,14 +11,35 @@ export const Container = styled.div`
 `
 
 export const Text = styled.div`
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+`
+
+export const SidebarList = styled.ul`
+  list-style: none;
   display: flex;
-  /* background: orange; */
-  width: 100%;
-  justify-content: center;
-  max-height: calc(100vh - 40px);
-  overflow-y: scroll;
-  position: absolute;
-  color: white;
+  justify-content: left;
+  align-items: flex-start;
+  display: block;
+  margin-left: -35px;
+`
+
+export const SidebarListLi = styled.li`
+  margin-bottom: 20px;
+  font-size: 18px;
+  padding: 2px 2px 2px 2px;
+  color: #b3b3b3;
+  text-align: left;
+  cursor: pointer;
+
+  &:hover {
+    border: 2px solid gray;
+    border-radius: 4px;
+    background: purple;
+  }
 `
 
 export const Header = styled.div`
@@ -33,9 +53,9 @@ export const SideBar = styled.div`
   display: flex;
   background: #202946;
   flex-direction: column;
-  width: 120px;
+  width: 133px;
   max-width: 175px;
-  min-width: 175px;
+  /* min-width: 175px; */
   padding: 13px;
   height: 110%;
   color: white;
