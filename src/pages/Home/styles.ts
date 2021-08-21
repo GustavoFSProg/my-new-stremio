@@ -62,7 +62,7 @@ export const HeaderText = styled.p`
   color: white;
   text-align: center;
   font-size: 16px;
-  margin-right: 40px;
+  margin-right: 28px;
 `
 export const SideBar = styled.div`
   display: flex;

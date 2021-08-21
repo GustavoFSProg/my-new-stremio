@@ -1,3 +1,4 @@
+import { FaFilm } from 'react-icons/fa'
 import {
   Container,
   Header,
@@ -14,8 +15,13 @@ export default function Home() {
     <Container>
       <Header>
         <HeaderContainer>
+          <FaFilm size="20" style={{ marginRight: '5px' }} />
           <HeaderText>Painel</HeaderText>
+          <FaFilm size="20" style={{ marginRight: '5px' }} />
+
           <HeaderText>Home</HeaderText>
+          <FaFilm size="20" style={{ marginRight: '5px' }} />
+
           <HeaderText>Series</HeaderText>
         </HeaderContainer>
       </Header>
