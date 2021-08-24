@@ -6,7 +6,7 @@ export const Container = styled.div`
   justify-content: center;
 
   width: 100%;
-  height: 54rem;
+  height: 53rem;
   background: #1f3d7a;
 `
 
@@ -32,7 +32,6 @@ export const SidebarListLi = styled.li`
   font-size: 18px;
   padding: 2px 2px 2px 2px;
   color: #b3b3b3;
-  /* text-align: left; */
   margin-left: 40px;
   cursor: pointer;
 
@@ -51,18 +50,41 @@ export const Header = styled.div`
   height: 60px;
 `
 
+export const Content = styled.div`
+  display: flex;
+  width: auto;
+  height: 100%;
+`
+
+export const ListMovies = styled.div`
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-height: calc(100vh - 40px);
+  overflow-y: scroll;
+`
 export const HeaderContainer = styled.div`
   display: flex;
   align-items: center;
   text-align: center;
-  margin-left: 20px;
+  margin-left: 40px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+`
+export const BodyContainer = styled.div`
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  gap: 0.5rem;
+
+  width: 50%;
 `
 
 export const HeaderText = styled.p`
   color: white;
   text-align: center;
   font-size: 16px;
-  margin-right: 28px;
+  margin-right: 35px;
 `
 export const SideBar = styled.div`
   display: flex;
@@ -72,6 +94,6 @@ export const SideBar = styled.div`
   max-width: 175px;
   /* min-width: 175px; */
   padding: 13px;
-  height: 110%;
+  height: 97%;
   color: white;
 `
