@@ -8,6 +8,10 @@ export const Container = styled.div`
   width: 100%;
   height: 67rem;
   background: #1f3d7a;
+
+  @media screen and (max-width: 1050px) {
+    height: 338rem;
+  }
 `
 
 export const Text = styled.div`
@@ -92,6 +96,7 @@ export const SideBar = styled.div`
   flex-direction: column;
   width: 153px;
   max-width: 175px;
+
   /* min-width: 175px; */
   padding: 13px;
   height: 97%;
