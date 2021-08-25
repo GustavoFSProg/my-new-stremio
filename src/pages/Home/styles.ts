@@ -62,6 +62,7 @@ export const ListMovies = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   max-height: calc(100vh - 40px);
+  margin-top: 17px;
 `
 export const HeaderContainer = styled.div`
   display: flex;
