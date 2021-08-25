@@ -111,18 +111,6 @@ const movies = [
     title: 'o Titulo',
     image: 'https://source.unsplash.com/random',
   },
-  {
-    title: 'o Titulo',
-    image: 'https://source.unsplash.com/random',
-  },
-  {
-    title: 'o Titulo',
-    image: 'https://source.unsplash.com/random',
-  },
-  {
-    title: 'o Titulo',
-    image: 'https://source.unsplash.com/random',
-  },
 ]
 
 export default function Home() {

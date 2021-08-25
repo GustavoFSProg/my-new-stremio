@@ -6,11 +6,11 @@ export const Container = styled.div`
   justify-content: center;
 
   width: 100%;
-  height: 67rem;
+  height: 57rem;
   background: #1f3d7a;
 
   @media screen and (max-width: 1050px) {
-    height: 338rem;
+    height: 300rem;
   }
 `
 
