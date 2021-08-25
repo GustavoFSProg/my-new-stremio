@@ -161,6 +161,22 @@ export default function Home() {
             return <Card image={movie.image} />
           })}
         </ListMovies>
+        <SideBar>
+          <SidebarList>
+            <SidebarListLi>
+              <Text>Detalhes</Text>
+            </SidebarListLi>
+            <SidebarListLi>
+              <Text>Filmes</Text>
+            </SidebarListLi>
+            <SidebarListLi>
+              <Text>Titanic</Text>
+            </SidebarListLi>
+            <SidebarListLi>
+              <Text>The Row</Text>
+            </SidebarListLi>
+          </SidebarList>
+        </SideBar>
       </Content>
     </Container>
   )
