@@ -29,7 +29,7 @@ export const SidebarList = styled.ul`
 
 export const SidebarListLi = styled.li`
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 16px;
   padding: 2px 2px 2px 2px;
   color: #b3b3b3;
   margin-left: 40px;
@@ -89,7 +89,7 @@ export const SideBar = styled.div`
   display: flex;
   background: #202946;
   flex-direction: column;
-  width: 143px;
+  width: 153px;
   max-width: 175px;
   /* min-width: 175px; */
   padding: 13px;
