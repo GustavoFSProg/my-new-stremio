@@ -11,6 +11,7 @@ import {
   SideBar,
   Content,
   ListMovies,
+  SideBarLeft,
 } from './styles'
 
 const movies = [
@@ -161,13 +162,13 @@ export default function Home() {
             return <Card image={movie.image} />
           })}
         </ListMovies>
-        <SideBar>
+        <SideBarLeft>
           <SidebarList>
             <SidebarListLi>
-              <Text>Detalhes</Text>
+              <Text>Filmes</Text>
             </SidebarListLi>
             <SidebarListLi>
-              <Text>Filmes</Text>
+              <Text>Lord</Text>
             </SidebarListLi>
             <SidebarListLi>
               <Text>Titanic</Text>
@@ -176,7 +177,7 @@ export default function Home() {
               <Text>The Row</Text>
             </SidebarListLi>
           </SidebarList>
-        </SideBar>
+        </SideBarLeft>
       </Content>
     </Container>
   )

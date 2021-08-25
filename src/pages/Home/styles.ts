@@ -97,3 +97,18 @@ export const SideBar = styled.div`
   height: 97%;
   color: white;
 `
+export const SideBarLeft = styled.div`
+  display: flex;
+  background: #202946;
+  flex-direction: column;
+  width: 153px;
+  max-width: 175px;
+  /* min-width: 175px; */
+  padding: 13px;
+  height: 97%;
+  color: white;
+
+  @media screen and (max-width: 720px) {
+    display: none;
+  }
+`
