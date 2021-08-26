@@ -96,6 +96,7 @@ export const SideBar = styled.div`
   flex-direction: column;
   width: 153px;
   max-width: 175px;
+  border-right: 2px solid #485f9d;
 
   /* min-width: 175px; */
   padding: 13px;
@@ -112,6 +113,7 @@ export const SideBarLeft = styled.div`
   padding: 13px;
   height: 97%;
   color: white;
+  border-left: 2px solid #485f9d;
 
   @media screen and (max-width: 720px) {
     display: none;
