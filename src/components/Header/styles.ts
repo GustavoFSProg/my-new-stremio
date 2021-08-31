@@ -73,7 +73,7 @@ export const HeaderContainer = styled.div`
   text-align: center;
   margin-left: 24px;
   /* padding-bottom: 4px; */
-  padding-top: 23px;
+  padding-top: 26px;
 `
 export const BodyContainer = styled.div`
   display: grid;
