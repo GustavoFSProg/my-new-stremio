@@ -1,10 +1,14 @@
 import { useEffect, useState } from 'react'
+import { FaFilm } from 'react-icons/fa'
 import Card from '../../components/Card'
+import Navbar from '../../components/Header'
 import api from '../../services/api'
-import Navbar from '../../components/Header/index'
 import {
   Container,
+  Header,
   SidebarListLi,
+  HeaderContainer,
+  HeaderText,
   SidebarList,
   Text,
   SideBar,
@@ -119,7 +123,7 @@ const movies = [
 //   image: string
 // }
 
-export default function Home() {
+export default function HomeDois() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [productsList, setProductsList] = useState([])
 
