@@ -112,13 +112,6 @@ const movies = [
   },
 ]
 
-// type Iproducts = {
-//   title: string
-//   price: string
-//   description: string
-//   image: string
-// }
-
 export default function Home() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [productsList, setProductsList] = useState([])

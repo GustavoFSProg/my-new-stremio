@@ -1,7 +1,6 @@
-import React from 'react'
 import { FaFilm } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import { Header, HeaderContainer, HeaderText, Text, Content, Container } from './styles'
+import { Header, HeaderContainer, HeaderText } from './styles'
 
 function Navbar() {
   return (

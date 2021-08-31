@@ -1,14 +1,10 @@
 import { useEffect, useState } from 'react'
-import { FaFilm } from 'react-icons/fa'
 import Card from '../../components/Card'
 import Navbar from '../../components/Header'
 import api from '../../services/api'
 import {
   Container,
-  Header,
   SidebarListLi,
-  HeaderContainer,
-  HeaderText,
   SidebarList,
   Text,
   SideBar,
