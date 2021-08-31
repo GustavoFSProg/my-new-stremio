@@ -27,6 +27,7 @@ function Navbar() {
                 justifyContent: 'center',
                 alignItems: 'center',
                 marginTop: '-21px',
+                marginLeft: '-10px',
               }}
             >
               <FaFilm size="20" style={{ marginRight: '8px', color: 'white' }} />
@@ -40,6 +41,7 @@ function Navbar() {
                 justifyContent: 'center',
                 alignItems: 'center',
                 marginTop: '-21px',
+                marginLeft: '-10px',
               }}
             >
               <FaFilm size="20" style={{ marginRight: '8px', color: 'white' }} />

@@ -71,7 +71,7 @@ export const HeaderContainer = styled.div`
   display: flex;
   align-items: center;
   text-align: center;
-  margin-left: 20px;
+  margin-left: 24px;
   /* padding-bottom: 4px; */
   padding-top: 23px;
 `
